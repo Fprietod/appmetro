@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "729145756425",
+    "firebase_url": "https://cdmx-go-2a63e.firebaseio.com",
+    "project_id": "cdmx-go-2a63e",
+    "storage_bucket": "cdmx-go-2a63e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729145756425:android:2375dc938b4dda51",
+        "android_client_info": {
+          "package_name": "com.example.felipe.metro2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729145756425-n389akcde90on7mtf7eikuuvu3t00s6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwMvF1GhTUhZ1wkpWJbC_xcxOCoMHRcl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729145756425-n389akcde90on7mtf7eikuuvu3t00s6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
