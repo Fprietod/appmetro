@@ -12,11 +12,9 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="wrap_content"
-        android:layout_height="108dp"
+        android:layout_height="62dp"
         android:fitsSystemWindows="true"
-        android:theme="@style/AppTheme.AppBarOverlay"
-        app:layout_constraintStart_toStartOf="@+id/button6"
-        app:layout_constraintTop_toTopOf="parent">
+        android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
@@ -39,35 +37,31 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="250dp"
-        android:layout_height="462dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/app_bar"
-        app:srcCompat="@drawable/lineas" />
+        android:layout_width="280dp"
+        android:layout_height="508dp"
+        app:srcCompat="@drawable/lineas"
+        tools:layout_editor_absoluteY="59dp" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="1dp"
         android:layout_height="134dp"
-        android:text="Button"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/app_bar" />
+        android:text="Button" />
 
     <Button
         android:id="@+id/idbtnMostrarincidencia"
-        android:layout_width="82dp"
-        android:layout_height="35dp"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
         android:text="Mostrar"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="134dp" />
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="88dp" />
 
     <Button
         android:id="@+id/idbtnReportar"
-        android:layout_width="92dp"
-        android:layout_height="41dp"
+        android:layout_width="107dp"
+        android:layout_height="62dp"
         android:text="Reportar"
-        tools:layout_editor_absoluteX="272dp"
-        tools:layout_editor_absoluteY="186dp" />
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="166dp" />
 
 </android.support.constraint.ConstraintLayout>

@@ -11,6 +11,7 @@ import android.widget.Button;
 
 public class ScrollingActivity extends AppCompatActivity {
     Button mostrar;
+    Button reportarincidencia;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,14 @@ public class ScrollingActivity extends AppCompatActivity {
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         mostrar = (Button) findViewById(R.id.idbtnMostrarincidencia);
+        reportarincidencia = (Button) findViewById(R.id.idbtnReportar);
+        reportarincidencia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent h = new Intent(ScrollingActivity.this, Main3Activity.class);
+                startActivity(h);
+            }
+        });
         mostrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
