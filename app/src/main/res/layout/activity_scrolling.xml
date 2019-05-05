@@ -6,15 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".ScrollingActivity">
+    tools:context=".ScrollingActivity"
+    tools:layout_editor_absoluteY="25dp">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="wrap_content"
-        android:layout_height="180dp"
+        android:layout_height="108dp"
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button6"
         app:layout_constraintTop_toTopOf="parent">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -37,19 +38,36 @@
     </android.support.design.widget.AppBarLayout>
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="42dp"
-        android:layout_height="82dp"
-        app:srcCompat="@drawable/linea1"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="163dp" />
+        android:id="@+id/imageView8"
+        android:layout_width="250dp"
+        android:layout_height="462dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/app_bar"
+        app:srcCompat="@drawable/lineas" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pantitlan - Observatorio"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="197dp" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="1dp"
+        android:layout_height="134dp"
+        android:text="Button"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/app_bar" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="82dp"
+        android:layout_height="35dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="92dp"
+        android:layout_height="41dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="186dp" />
 
 </android.support.constraint.ConstraintLayout>
