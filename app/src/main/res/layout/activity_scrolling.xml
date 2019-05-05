@@ -55,18 +55,18 @@
         app:layout_constraintTop_toTopOf="@+id/app_bar" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/idbtnMostrarincidencia"
         android:layout_width="82dp"
         android:layout_height="35dp"
-        android:text="Button"
+        android:text="Mostrar"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="134dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/idbtnReportar"
         android:layout_width="92dp"
         android:layout_height="41dp"
-        android:text="Button"
+        android:text="Reportar"
         tools:layout_editor_absoluteX="272dp"
         tools:layout_editor_absoluteY="186dp" />
 
